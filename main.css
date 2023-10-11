@@ -68,11 +68,20 @@ p {
 }
 
 .image {
-    max-width: 100%; 
-    width: auto; 
-    object-fit: cover; 
+    max-width: 100%;
+    width: auto;
+    object-fit: cover;
     vertical-align: middle;
-    
+
+}
+
+.imagHuTao {
+
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
 }
 
 footer {
@@ -90,12 +99,15 @@ footer p {
     header {
         font-size: 24px;
     }
+
     main {
         padding: 20px;
     }
+
     h2 {
         font-size: 24px;
     }
+
     p {
         font-size: 16px;
     }
